@@ -36,7 +36,8 @@ async function handleRequest(request) {
     '/portkey': 'https://api.portkey.ai',
     '/cerebras': 'https://api.cerebras.ai',
     '/fireworks': 'https://api.fireworks.ai',
-    '/openrouter': 'https://openrouter.ai/api' 
+    '/openrouter': 'https://openrouter.ai/api',
+    '/11labs': 'https://api.elevenlabs.io'
   }
   
   const [prefix, rest] = extractPrefixAndRest(pathname, Object.keys(apiMapping));
