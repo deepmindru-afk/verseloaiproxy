@@ -20,6 +20,10 @@
             "dest": "https://api.anthropic.com/$1"
         },
         {
+            "src": "/11labs/(.*)",
+            "dest": "https://api.elevenlabs.io/$1"
+        },
+        {
             "src": "/gemini/(.*)",
             "dest": "https://generativelanguage.googleapis.com/$1"
         },
