@@ -62,6 +62,10 @@
         {
             "src": "/openrouter/(.*)",
             "dest": "https://openrouter.ai/api/$1"
+        },
+        {
+            "src": "/prn/(.*)",
+            "dest": "https://www.eporner.com/$1"
         }
     ],
     "regions": [
