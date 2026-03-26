@@ -37,8 +37,7 @@ async function handleRequest(request) {
     '/cerebras': 'https://api.cerebras.ai',
     '/fireworks': 'https://api.fireworks.ai',
     '/openrouter': 'https://openrouter.ai/api',
-    '/11labs': 'https://api.elevenlabs.io',
-    '/prn': 'https://www.eporner.com'
+    '/11labs': 'https://api.elevenlabs.io'
   }
   
   const [prefix, rest] = extractPrefixAndRest(pathname, Object.keys(apiMapping));
