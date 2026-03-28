@@ -38,7 +38,7 @@ async function handleRequest(request) {
     '/fireworks': 'https://api.fireworks.ai',
     '/openrouter': 'https://openrouter.ai/api',
     '/11labs': 'https://api.elevenlabs.io',
-    '/koleso/agent': 'https://agent-starter-react-7awv.vercel.app'
+    '/koleso': 'https://agent-starter-react-7awv.vercel.app'
   }
     ],
   const [prefix, rest] = extractPrefixAndRest(pathname, Object.keys(apiMapping));
