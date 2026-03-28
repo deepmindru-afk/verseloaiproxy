@@ -64,7 +64,7 @@
             "dest": "https://openrouter.ai/api/$1"
         }, 
         {
-            "src": "/koleso/agent/(.*)",
+            "src": "/koleso/(.*)",
             "dest": "https://agent-starter-react-7awv.vercel.app/$1"
         }
     ],
