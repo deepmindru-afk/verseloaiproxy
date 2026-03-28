@@ -37,9 +37,10 @@ async function handleRequest(request) {
     '/cerebras': 'https://api.cerebras.ai',
     '/fireworks': 'https://api.fireworks.ai',
     '/openrouter': 'https://openrouter.ai/api',
-    '/11labs': 'https://api.elevenlabs.io'
+    '/11labs': 'https://api.elevenlabs.io',
+    '/koleso/agent': 'https://agent-starter-react-7awv.vercel.app'
   }
-  
+    ],
   const [prefix, rest] = extractPrefixAndRest(pathname, Object.keys(apiMapping));
   if (prefix) {
     const baseApiUrl = apiMapping[prefix];
