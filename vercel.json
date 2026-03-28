@@ -62,6 +62,10 @@
         {
             "src": "/openrouter/(.*)",
             "dest": "https://openrouter.ai/api/$1"
+        }, 
+        {
+            "src": "/koleso/agent/(.*)",
+            "dest": "https://agent-starter-react-7awv.vercel.app/$1"
         }
     ],
     "regions": [
