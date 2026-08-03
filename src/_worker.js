@@ -38,6 +38,7 @@ async function handleRequest(request) {
     '/fireworks': 'https://api.fireworks.ai',
     '/openrouter': 'https://openrouter.ai/api',
     '/11labs': 'https://api.elevenlabs.io',
+    '/nvidia': 'https://integrate.api.nvidia.com',
     '/koleso': 'https://agent-starter-react-7awv.vercel.app'
   }
     ],
