@@ -26,6 +26,7 @@ async function handleRequest(request) {
   const apiMapping = {
     '/openai': 'https://api.openai.com',
     '/claude': 'https://api.anthropic.com',
+    '/opencode': 'https://opencode.ai/zen',
     '/gemini': 'https://generativelanguage.googleapis.com',
     '/groq': 'https://api.groq.com',
     '/xai': 'https://api.x.ai',
