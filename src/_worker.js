@@ -39,6 +39,7 @@ async function handleRequest(request) {
     '/openrouter': 'https://openrouter.ai/api',
     '/11labs': 'https://api.elevenlabs.io',
     '/nvidia': 'https://integrate.api.nvidia.com',
+    '/llm7': 'https://api.llm7.io',
     '/koleso': 'https://agent-starter-react-7awv.vercel.app'
   }
     ],
