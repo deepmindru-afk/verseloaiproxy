@@ -16,6 +16,10 @@
             "dest": "https://api.openai.com/$1"
         },
         {
+            "src": "/opencode/(.*)",
+            "dest": "https://opencode.ai/zen/$1"
+        },
+        {
             "src": "/nvidia/(.*)",
             "dest": "https://integrate.api.nvidia.com/$1"
         },
