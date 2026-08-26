@@ -30,6 +30,7 @@ async function handleRequest(request) {
     '/gemini': 'https://generativelanguage.googleapis.com',
     '/groq': 'https://api.groq.com',
     '/xai': 'https://api.x.ai',
+    '/mistral': 'https://api.mistral.ai',
     '/cohere': 'https://api.cohere.ai',
     //'/huggingface': 'https://api-inference.huggingface.co',
     '/huggingface': 'https://router.huggingface.co',
