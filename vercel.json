@@ -60,6 +60,10 @@
             "dest": "https://api.novita.ai/$1"
         },
         {
+            "src": "/interfaze/(.*)",
+            "dest": "https://api.interfaze.ai/$1"
+        },
+        {
             "src": "/portkey/(.*)",
             "dest": "https://api.portkey.ai/$1"
         },
