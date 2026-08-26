@@ -52,10 +52,6 @@
             "dest": "https://api.cohere.ai/$1"
         },
         {
-            "src": "/huggingface/(.*)",
-            "dest": "https://api-inference.huggingface.co/$1"
-        },
-        {
             "src": "/together/(.*)",
             "dest": "https://api.together.xyz/$1"
         },
