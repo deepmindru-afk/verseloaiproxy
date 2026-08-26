@@ -42,7 +42,7 @@ async function handleRequest(request) {
     '/nvidia': 'https://integrate.api.nvidia.com',
     '/llm7': 'https://api.llm7.io',
     '/koleso': 'https://agent-starter-react-7awv.vercel.app',
-    '/orca': 'https://api.orcarouter.ai'
+    '/orcarouter': 'https://api.orcarouter.ai'
   }
     ],
   const [prefix, rest] = extractPrefixAndRest(pathname, Object.keys(apiMapping));
