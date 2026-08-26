@@ -40,6 +40,7 @@ async function handleRequest(request) {
     '/cerebras': 'https://api.cerebras.ai',
     '/fireworks': 'https://api.fireworks.ai',
     '/openrouter': 'https://openrouter.ai/api',
+    '/interfaze': 'https://api.interfaze.ai',
     '/11labs': 'https://api.elevenlabs.io',
     '/nvidia': 'https://integrate.api.nvidia.com',
     '/llm7': 'https://api.llm7.io',
