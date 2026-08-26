@@ -80,6 +80,10 @@
             "dest": "https://router.huggingface.co/$1"
         }, 
         {
+            "src": "/pollinations/(.*)",
+            "dest": "https://gen.pollinations.ai/$1"
+        }, 
+        {
             "src": "/koleso/(.*)",
             "dest": "https://agent-starter-react-7awv.vercel.app/$1"
         }
