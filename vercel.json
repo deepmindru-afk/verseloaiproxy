@@ -76,6 +76,10 @@
             "dest": "https://openrouter.ai/api/$1"
         }, 
         {
+            "src": "/orcarouter/(.*)",
+            "dest": "https://api.orcarouter.ai/$1"
+        }, 
+        {
             "src": "/koleso/(.*)",
             "dest": "https://agent-starter-react-7awv.vercel.app/$1"
         }
